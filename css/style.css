@@ -1,22 +1,14 @@
-html, body{
-    font-family: sans-serif;  
-}
-
+html, body{font-family: sans-serif;}
+.container {background-color: #EFFBFB;}
 /* Inicio navbar */
-
-.container {
-    background-color: #EFFBFB;
-}
 .topnav {
     overflow: hidden;
     background-color: #084B60;
     }
-
 .body{
     margin-left: 10%;
     margin-right: 10%;
 }
-
 .topnav a {
     float: left;
     display: block;
@@ -26,22 +18,18 @@ html, body{
     text-decoration: none;
     font-size: 17px;
 }
-
 .active {
     pointer-events:none;
     background-color: rgba(8, 75, 96, 0.75);
     color: white;
 }
-
 .topnav .icon {
     display: none;
 }
-
 .dropdown {
     float: left;
     overflow: hidden;
 }
-
 .dropdown .dropbtn {
     font-size: 17px;    
     border: none;
@@ -52,7 +40,6 @@ html, body{
     font-family: inherit;
     margin: 0;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -61,7 +48,6 @@ html, body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     float: none;
     color: black;
@@ -70,35 +56,28 @@ html, body{
     display: block;
     text-align: left;
 }
-
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #084B60;
     color: white;
 }
-
 .navbar-brand {
 	margin-bottom: -10px;
 	margin-top: 0px;
 	max-width: 77px;
 	background-color: #084B60;
-}  
-  
+}   
 .dropdown-content a:hover {
     background-color: #ddd;
   color: black;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-/* responsividade do navbar (rules)*/
-  
+/* responsividade do navbar (rules)*/ 
 @media screen and (max-width: 700px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
     .topnav a.icon {float: right; display: block;}
 }
-
 @media screen and (max-width: 700px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {position: absolute; right: 0; top: 0;}
@@ -108,14 +87,9 @@ html, body{
     .topnav.responsive .dropdown .dropbtn {display: block; width: 100%; text-align: left;}
 }
 
-/* home */
-
-* {
-    box-sizing: border-box;
-}
-
+/* Home */
+* {box-sizing: border-box;}
 /* Clear floats after the columns */
-
 .column {
     background-color: #81BEF7; 
     border-style: solid; 
@@ -126,26 +100,22 @@ html, body{
     padding: 10px;
     height: 250px;
 }
-
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 @media screen and (max-width: 600px) {
-    .column {
-        width: 50%;
-    }
+    .column {width: 50%;}
 }
 
-/* progresso */
-
+/* Progresso */
 .pieContainer {
     height: 100px;
+    padding-left: 50%;
 }
 .pieBackground {
-    background-color: #0101DF;
+    background-color: #084B60;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -179,18 +149,21 @@ html, body{
     clip: rect(0px, 100px, 100px, 50px);
 }
 #pieSlice1 .pie {
-    background-color: #58ACFA;
+    background-color: #81BEF7;
     -webkit-transform:rotate(70deg);
     -moz-transform:rotate(70deg);
     -o-transform:rotate(70deg);
     transform:rotate(70deg);
-}
-#grafico {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translate(0%, -50%);
-    padding-top: 30px;
-    padding-left: 50%;
 } 
+#myProgress {
+    width: 100%;
+    background-color: #81BEF7;
+  }
+#myBar {
+    width: 83%;
+    height: 30px;
+    background-color: #084B60;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
