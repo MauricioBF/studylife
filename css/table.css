@@ -1,0 +1,69 @@
+.space{
+	padding: 20px;
+}
+.limpo{
+	padding: 16px;
+}
+#lugares {
+    width: 100%;
+}
+.dia{
+    width: 10%;
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 0.25px;
+    border-color: white;
+    text-align: center; 
+    background-color: grey;
+}
+.hora {
+    width: 10%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.25px;
+    border-color: white;
+    text-align: center;
+    background-color: lightgray;
+}
+.f4 {
+    background-color: paleturquoise;
+}
+.edf3 {
+    background-color: lightcoral;
+}
+.pt {
+    background-color: royalblue;
+}
+.quim {
+    background-color: skyblue;
+}
+.es {
+    background-color: tomato;
+}
+.dbo {
+    background-color: greenyellow;
+}
+.mat {
+    background-color: mediumaquamarine;
+}
+.bio {
+    background-color: orchid;
+}
+.bd {
+    background-color: blueviolet;
+}
+.hist {
+    background-color: darkkhaki;
+}
+.geo {
+    background-color: darkcyan;
+}
+.filo {
+    background-color: chocolate;
+}
+.socio {
+    background-color: brown;
+}
+.corpo {
+    font-family: sans-serif;
+}

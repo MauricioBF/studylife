@@ -4,30 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Study Life</title>
 </head>
 <body>
-            <!--navbar-->
-            <div class="topnav" id="myTopnav">
-                    <a href="index.html" class="navbar-brand"><img src="pict/icon.png" style= "width: 100%;"></a>
-                    <a href="progresso.html">Progresso</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">Disciplinas 
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="mt3.html">Matemática 3</a>
-                            <a href="es.html" >Engenharia de Software</a>
-                            <a href="f4.html">Física 4</a>
-                            <a href="bd.html">Banco de Dados</a>
-                        </div>
-                    </div>
-                    <a href="tarefas.html">Tarefas</a>
-                    <a href="hora.html">Horários</a>
-                    <a href="material.html">Material</a>
-                    <a href="perfil.html">Perfil</a> 
-                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="container">
+        <!--navbar-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="navbar-brand"><img src="pict/icon.png" style= "width: 100%;"></a>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Disciplinas 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="mt3.html">Matemática 3</a>
+                    <a href="es.html" >Engenharia de Software</a>
+                    <a href="f4.html">Física 4</a>
+                    <a href="bd.html">Banco de Dados</a>
                 </div>
-                <!--corpo da home-->
+            </div>
+            <a href="progresso.html">Progresso</a>
+            <a href="tarefas.html">Tarefas</a>
+            <a href="hora.html">Horários</a>
+            <a href="material.html">Material</a>
+            <a href="perfil.html">Perfil</a> 
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <!--corpo da home-->
+        <div class="corpo">
+            <h2 style="text-align:center">Minha galeria</h2>
+            <div class="row2" style="margin-left:5%; margin-right:5%">
+                <div class="column2">
+                    <h2>Minhas matérias</h2>
+                    <p>Veja aqui suas matérias</p>
+                </div>
+                <div class="column2">
+                    <div class="column3">
+                        <h2>Meu progresso</h2>
+                        <p>Não perca seu desempenho, consulte seu progresso</p>
+                    </div>
+                    <div class="column3">
+                        <h2>Tarefas</h2>
+                        <p>Perdido nos trabalhos? Aqui você não se perde</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="column3">
+                        <h2>Meu progresso</h2>
+                        <p>Não perca seu desempenho, consulte seu progresso</p>
+                    </div>
+                    <div class="column3">
+                        <h2>Tarefas</h2>
+                        <p>Perdido nos trabalhos? Aqui você não se perde</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h2>Horários</h2>
+                    <p>Não leve mais o caderno errado, consulte seu horário</p>
+                </div>
+            </div>
+            <br>
+            <div style="display:flex;text-align:center;">
+                <div>
+                    <a href="tarefas.html" class="w3-btn" style="background-color:#084B60;color:white;">Cancelar</a>
+                </div>
+                <div>
+                    <a href="tarefas.html" class="w3-btn" style="background-color:#81BEF7;float:right;">Salvar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/nav.js"></script>
 </body>
 </html>

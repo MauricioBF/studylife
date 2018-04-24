@@ -1,5 +1,10 @@
-html, body{font-family: sans-serif;}
+html, body{font-family: "Segoe UI",Arial,sans-serif;}
+.desempenho {font-family: "Segoe UI",Arial,sans-serif;}
+.tarefas {font-family: "Segoe UI",Arial,sans-serif;}
 .container {background-color: #EFFBFB;}
+h2 {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
 /* Inicio navbar */
 .topnav {
     overflow: hidden;
@@ -74,7 +79,7 @@ html, body{font-family: sans-serif;}
     display: block;
 }
 /* responsividade do navbar (rules)*/ 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
     .topnav a.icon {float: right; display: block;}
 }
@@ -91,6 +96,7 @@ html, body{font-family: sans-serif;}
 * {box-sizing: border-box;}
 /* Clear floats after the columns */
 .column {
+    color: black;
     background-color: #81BEF7; 
     border-style: solid; 
     border-color: #EFFBFB; 
@@ -99,6 +105,7 @@ html, body{font-family: sans-serif;}
     width: 50%;
     padding: 10px;
     height: 250px;
+    text-align: center;
 }
 .row:after {
     content: "";
@@ -166,4 +173,79 @@ html, body{font-family: sans-serif;}
     text-align: center;
     line-height: 30px;
     color: white;
+}
+ /* desempenho */
+
+ .tit {
+    width: 10%;
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 0.25px;
+    border-color: white;
+    text-align: center; 
+    background-color: grey;
+}
+.cont {
+    width: 10%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.25px;
+    border-color: white;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* tarefas */
+.tar {
+    width: 450px;
+    height: 100px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.25px;
+    border-color: white;
+    text-align: right;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* galeria */
+
+
+/* Home */
+* {box-sizing: border-box;}
+/* Clear floats after the columns */
+.column2 {
+    color: black;
+    background-color: #81BEF7; 
+    border-style: solid; 
+    border-color: #EFFBFB; 
+    border-width: 5px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column2 {width: 50%;}
+}
+.column2 {
+    color: black;
+    background-color: #81BEF7; 
+    border-style: solid; 
+    border-color: #EFFBFB; 
+    border-width: 5px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .column3 {width: 50%;}
 }
