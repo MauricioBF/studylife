@@ -7,7 +7,7 @@ self.addEventListener('install', function (event) {
         fetch(indexPage).then(function (response) {
             caches.open('pwabuilder-offline').then(function (cache) {
                 console.log('[PWA Builder] Cached index page during Install' + response.url);
-                return cache.addAll(['/studylife/','/studylife/index.html','/studylife/bd.html','/studylife/cadastro.html','/studylife/cadastro2.html','/studylife/cadastro3.html','/studylife/es.html','/studylife/f4.html','/studylife/hora.html','/studylife/lista.html','/studylife/matedit.html','/studylife/material.html','/studylife/mensagem.html','/studylife/mt3.html','/studylife/newt.html','/studylife/perfil.html','/studylife/perfilp.html','/studylife/progresso.html','/studylife/tarefas.html','/studylife/pict/icon.png','/studylife/js/nav.js','/studylife/js/circle.js','/studylife/js/drop.js','/studylife/css/style.css','/studylife/css/circle.css','/studylife/css/table.css']);
+                return cache.addAll(['/studylife/','/studylife/index.html','/studylife/bd.html','/studylife/cadastro.html','/studylife/cadastro2.html','/studylife/cadastro3.html','/studylife/es.html','/studylife/f4.html','/studylife/hora.html','/studylife/lista.html','/studylife/matedit.html','/studylife/material.html','/studylife/mensagem.html','/studylife/mt3.html','/studylife/newt.html','/studylife/perfil.html','/studylife/perfilp.html','/studylife/progresso.html','/studylife/tarefas.html','/studylife/pict/icon.png','/studylife/pict/img.jpg','/studylife/js/nav.js','/studylife/js/circle.js','/studylife/js/drop.js','/studylife/css/style.css','/studylife/css/circle.css','/studylife/css/table.css']);
             });
         })
     );

@@ -61,6 +61,109 @@ font-family: "Segoe UI",Arial,sans-serif;
     display: block;
     text-align: left;
 }
+.otobut{text-align:center;background-color:#81BEF7}
+.ootobut{text-align:center;background-color:#084B60; color: white;}
+.dados{background-color:#81BEF7;width:100%;}
+.h2c{text-align:center;font-family: sans-serif;}
+.logo{width: 100%;}
+.butedit{text-align:center;background-color:#81BEF7;}
+.barbd{width: 65%;}
+.bares{width: 82%;}
+.pd{display:flex;text-align:center;}
+    .space{
+	padding: 20px;
+}
+.limpo{
+	padding: 16px;
+}
+#lugares {
+    width: 100%;
+}
+#lugares2 {
+    width: 100%;
+}
+.dia{
+    width: 10%;
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 0.25px;
+    border-color: white;
+    text-align: center; 
+    background-color: grey;
+}
+.hora {
+    width: 10%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 0.25px;
+    border-color: white;
+    text-align: center;
+    background-color: lightgray;
+}
+.f4 {
+    background-color: paleturquoise;
+}
+.edf3 {
+    background-color: lightcoral;
+}
+.pt {
+    background-color: royalblue;
+}
+.quim {
+    background-color: skyblue;
+}
+.es {
+    background-color: tomato;
+}
+.dbo {
+    background-color: greenyellow;
+}
+.mat {
+    background-color: mediumaquamarine;
+}
+.bio {
+    background-color: orchid;
+}
+.bd {
+    background-color: blueviolet;
+}
+.hist {
+    background-color: darkkhaki;
+}
+.geo {
+    background-color: darkcyan;
+}
+.filo {
+    background-color: chocolate;
+}
+.socio {
+    background-color: brown;
+}
+.corpo {
+    font-family: sans-serif;
+}
+.barmt3{width: 74%;} 
+.barf4{width: 37%;}
+.gf{text-align:center; margin-left:auto; margin-right:auto;}
+.barc{width: 98%;}
+.barc4{width: 1%;}
+.cinco{width:55%;height:55;}
+.barc2{width:53%;}
+.barc3{width: 98%;}
+.o{width: 100%;}
+.grafi{background-color:#EFFBFB; width:100;}
+.c3{background-color:lightgray;width:100%;height:370px;}
+.e{margin-left:15%; margin-right:15%;}
+.txt{display:flex;text-align:center;}
+.row2{margin-left:5%; margin-right:5%;}
+.butf{display:flex;text-align:center;}
+.mn{background-color:#084B60;text-align:left;height:270px;margin-left:25%; margin-right:25%;}
+.ultcomun{margin-left:25%; margin-right:25%;background-color:#81BEF7;width:100%;}
+.doblebut{display:flex;text-align:center;}
+.butesc{background-color:#084B60;color:white;}
+.butcla{background-color:#81BEF7;float:right;}
+.c1{background-color:lightgray;width:100%;text-align:left;height:120px;}
+.c2{background-color:lightgray;width:100%;text-align:left;height:60px;}
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #084B60;
     color: white;
